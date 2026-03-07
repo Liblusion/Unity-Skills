@@ -722,8 +722,8 @@ Create a `PanelSettings` ScriptableObject asset with full property support.
 |-----------|------|-------------|
 | `renderMode` | string | `"ScreenSpaceOverlay"` / `"WorldSpace"` |
 | `forceGammaRendering` | bool | Force gamma rendering |
-| `bindingLogLevel` | string | Binding log level (`"None"`, `"Once"`, `"Always"`) |
-| `colliderUpdateMode` | string | World Space collider mode (`"Match3DBoundingBox"`, `"NoUpdate"`) |
+| `bindingLogLevel` | string | Binding log level (`"None"`, `"Once"`, `"All"`) |
+| `colliderUpdateMode` | string | World Space collider mode (`"Match3DBoundingBox"`, `"Match2DDocumentRect"`, `"KeepExistingCollider"`) |
 | `colliderIsTrigger` | bool | World Space collider is trigger |
 | `vertexBudget` | int | Vertex budget for buffer management |
 | `textureSlotCount` | int | Texture slot count for buffer management |
